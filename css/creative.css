@@ -155,7 +155,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/sherifgs-header.jpg");
-  background-position: center;
+  background-position: 70%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -164,12 +164,14 @@ header.masthead {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
-    text-align: center; }
+    text-align: center;
+    top: 15%; }
     header.masthead .header-content .header-content-inner h1 {
-      font-size: 30px;
-      font-weight: 700;
+      font-size: 50px;
+      font-weight: 400;
       margin-top: 0;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      font-family: 'Niconne', cursive; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -179,7 +181,8 @@ header.masthead {
       color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     header.masthead {
-      min-height: 600px; }
+      min-height: 600px;
+      background-position: center; }
       header.masthead .header-content {
         position: absolute;
         top: 70%;
@@ -192,7 +195,7 @@ header.masthead {
           margin-right: auto;
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
-            font-size: 50px; }
+            font-size: 60px; }
           header.masthead .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
