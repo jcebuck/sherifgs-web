@@ -138,6 +138,8 @@ body {
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 16px;
           color: #0D8907; }
+          #mainNav.navbar-shrink .navbar-brand .flag-icon {
+          vertical-align: middle; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
             color: #0D8907; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
